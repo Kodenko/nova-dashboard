@@ -89,6 +89,10 @@ class NovaDashboard extends Tool
         return null;
 
     }
+    
+    public function menu()
+    {
+    }
 
     protected function resolveDashboards(): Collection
     {
