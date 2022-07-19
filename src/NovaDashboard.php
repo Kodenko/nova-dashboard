@@ -6,6 +6,7 @@ use Illuminate\Support\Collection;
 use Illuminate\View\View;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
+use Illuminate\Http\Request;
 
 class NovaDashboard extends Tool
 {
@@ -90,7 +91,7 @@ class NovaDashboard extends Tool
 
     }
     
-    public function menu(Illuminate\Http\Request $request)
+    public function menu(Request $request)
     {
     }
 
