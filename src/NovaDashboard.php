@@ -90,7 +90,7 @@ class NovaDashboard extends Tool
 
     }
     
-    public function menu(Illuminate\Http\Request)
+    public function menu(Illuminate\Http\Request $request)
     {
     }
 
